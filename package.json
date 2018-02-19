@@ -1,0 +1,16 @@
+{
+  "name": "cvs-to-db",
+  "version": "1.0.0",
+  "description": "Import a cvs into mongo DB, user for google documents cvs of users to import into the sites DB for future use",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "mocha"
+  },
+  "author": "Scott Lindh <scottlindh@gmail.com> (http://onzcoin.com)",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "mongoimport": "^1.0.6"
+  }
+}
