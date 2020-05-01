@@ -5,12 +5,16 @@
   "main": "App.js",
   "scripts": {
     "start": "node App.js",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Scott Lindh <scottlindh@gmail.com> (http://onzcoin.com)",
   "license": "ISC",
   "dependencies": {
     "csvtojson": "^1.1.9",
-    "mongoimport": "^1.0.6"
-  }
+    "mongoimport": "^1.0.6",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
