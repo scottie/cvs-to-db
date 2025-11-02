@@ -10,7 +10,7 @@
   "author": "Scott Lindh <scottlindh@gmail.com> (http://onzcoin.com)",
   "license": "ISC",
   "dependencies": {
-    "csvtojson": "^1.1.9",
+    "csvtojson": "^2.0.13",
     "mongoimport": "^1.0.6"
   }
 }
